@@ -31,7 +31,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFT-3R-AVs">
-                                <rect key="frame" x="174" y="216" width="67" height="31"/>
+                                <rect key="frame" x="159" y="216" width="97" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
@@ -72,7 +72,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fd-Kq-Hf3">
-                                <rect key="frame" x="257" y="74" width="115" height="76"/>
+                                <rect key="frame" x="249" y="62" width="148" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -87,7 +87,7 @@
                         <outlet property="currentgradetextfield" destination="i9D-TF-nSw" id="Slb-VH-9yA"/>
                         <outlet property="desiredfinalgradelabel" destination="BeY-ma-EwM" id="6Q0-FZ-pjP"/>
                         <outlet property="desiredfinalgradetextfield" destination="fCu-Ig-kYq" id="yEs-h2-sxx"/>
-                        <outlet property="percentageexamisworthlabel" destination="FVl-o9-tpI" id="Dtp-9F-ndR"/>
+                        <outlet property="percentageexamisworthlabel" destination="0fd-Kq-Hf3" id="2zm-de-8g9"/>
                         <outlet property="percentageexamisworthtext" destination="FVl-o9-tpI" id="Zp0-ef-Z8G"/>
                         <outlet property="resultlabel" destination="LZa-Yp-unE" id="78f-8h-WHn"/>
                         <outlet property="toplabel" destination="1Ph-pA-X6V" id="dKm-cj-dS7"/>

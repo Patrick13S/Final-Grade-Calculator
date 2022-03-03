@@ -44,15 +44,22 @@ class ViewController: UIViewController
     
     @IBAction func calculatebutton(_ sender: Any)
     {
-        
+       
        // func multiplying(by decimalNumber: NSDecimalNumber) -> NSDecimalNumber
         var firstNumString = currentgradetextfield.text ?? ""
-             
+        //Double
        var two = desiredfinalgradetextfield.text ?? ""
-
+        var three = percentageexamisworthtext.text ?? ""
             let myInt1 = Int(firstNumString) ?? 0
             
         let myInt2 = Int(two) ?? 0
+        
+        let a = Double(firstNumString) ?? 0.0
+        let b = Double(two) ?? 0.0
+        
+            let Answer = a*b
+        resultlabel.text = "\(Answer)"
+
        // resultlabel =
     }
     
