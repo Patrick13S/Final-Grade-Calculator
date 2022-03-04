@@ -56,8 +56,13 @@ class ViewController: UIViewController
         
         let a = Double(firstNumString) ?? 0.0
         let b = Double(two) ?? 0.0
-        
-            let Answer = a*b
+        let c = Double(three) ?? 0.0
+        let d = c/100
+        let e = 1-d
+        let f = e*a
+        let g = b-f
+        let h = g/d
+            let Answer = h
         resultlabel.text = "\(Answer)"
 
        // resultlabel =
